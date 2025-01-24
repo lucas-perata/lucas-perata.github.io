@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe Form - EquipoDotGuru</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script>
+        function triggerConfetti() {
+            confetti({ particleCount: 100, spread: 70 });
+        }
+    </script>
+</head>
+
+<body>
+    <main class="subscribe">
+        <form id="subscribeForm" class="subscribe__container">
+            <div class="subscribe__icon">
+                <img src="paper-plane.png" alt="Ícono de suscripción" class="subscribe__icon-img">
+            </div>
+
+            <h1 class="subscribe__title">SUBSCRIBE</h1>
+
+            <input type="email" class="subscribe__input" placeholder="Enter Your Email">
+            <button type="submit" class="subscribe__button">SUBSCRIBE</button>
+        </form>
+
+        <footer class="subscribe__footer">
+            <p class="subscribe__footer-text">
+                © 2025 Subscribe Form. All Rights Reserved. <br>
+                Design by EquipoDotGuru.
+            </p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
