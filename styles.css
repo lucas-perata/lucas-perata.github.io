@@ -18,7 +18,6 @@ body {
     height: 100vh;
 }
 
-/* Elementos del Bloque */
 .subscribe__container {
     display: flex;
     align-items: center;
